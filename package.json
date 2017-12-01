@@ -1,30 +1,22 @@
 {
-  "name": "pure-prompt",
-  "version": "1.6.0",
-  "description": "Pretty, minimal and fast ZSH prompt",
+  "name": "async-pure",
+  "version": "0.1.0",
+  "description": "Pretty, minimal and fast ZSH prompt based on Pure",
   "license": "MIT",
-  "repository": "sindresorhus/pure",
+  "repository": "schwartzj/async-pure",
   "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
+    "name": "Jay Schwartz",
+    "email": "jay.schwartz@sparkdemand.io",
+    "url": "https://sparkdemand.io/"
   },
-  "maintainers": [
-    {
-      "name": "Mathias Fredriksson",
-      "url": "github.com/mafredri"
-    }
-  ],
   "engines": {
     "node": ">=0.10.0"
   },
   "scripts": {
-    "postinstall": "PURE_DEST=/usr/local/share/zsh/site-functions npm run --silent postinstall-link && exit 0; PURE_DEST=\"$PWD/functions\" npm run postinstall-link && npm run postinstall-fail-instructions",
-    "postinstall-link": "mkdir -p \"$PURE_DEST\" && ln -sf \"$PWD/pure.zsh\" \"$PURE_DEST/prompt_pure_setup\" && ln -sf \"$PWD/async.zsh\" \"$PURE_DEST/async\"",
-    "postinstall-fail-instructions": "echo \"ERROR: Could not automagically symlink the prompt. Either:\\n1. Check out the readme on how to do it manually: https://github.com/sindresorhus/pure#manually\\n2. Or add the following to your \\`.zshrc\\`:\\n\\n    fpath+=('$PWD/functions')\""
+    "postinstall": "dest=/usr/local/share/zsh/site-functions; mkdir -p $dest && ln -sf \"$PWD/async-pure.zsh\" $dest/prompt_pure_setup && ln -sf \"$PWD/async.zsh\" $dest/async || echo 'Could not automagically symlink the prompt. Check out the readme on how to do it manually: https://github.com/jschwrtz/async-pure#manually'"
   },
   "files": [
-    "pure.zsh",
+    "async-pure.zsh",
     "async.zsh"
   ],
   "keywords": [
