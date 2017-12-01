@@ -164,6 +164,7 @@ OR
     ```console
     ln -s "$PWD/async_pure.zsh" "$HOME/.oh-my-zsh/custom/themes/async-pure.zsh-theme"
     ```
+
 1. Set ZSH_THEME="async-pure" in your .zshrc.
 
 ### [antigen](https://github.com/zsh-users/antigen)
