@@ -1,6 +1,6 @@
 {
   "name": "async-pure",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Pretty, minimal and fast ZSH prompt based on Pure",
   "license": "MIT",
   "repository": "schwartzj/async-pure",
