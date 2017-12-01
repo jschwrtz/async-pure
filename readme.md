@@ -7,7 +7,7 @@ This is a fork of [sindresorhus/pure](https://github.com/sindresorhus/pure), whi
 - fully async git integration
 - [Monokai](https://github.com/deepsweet/Monokai-Soda-iTerm) friendly colors --- for machines and people!
 
-<img src="https://raw.githubusercontent.com/jschwrtz/async-pure/master/screenshot.png" width="auto" style="display:block; margin: 0 auto;">
+<img src="https://raw.githubusercontent.com/jschwrtz/async-pure/master/screenshot_iterm.png" width="auto" style="display:block; margin: 0 auto;">
 
 ## Overview
 
