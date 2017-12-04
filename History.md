@@ -1,4 +1,9 @@
 # CHANGELOG
+n.n.n / 2017-12-04
+==================
+
+  * :memo: updating docs
+  * :memo: updating docs
 
 v1.6.1 / 2017-12-01
 ===================

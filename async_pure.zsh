@@ -741,7 +741,7 @@ prompt_pure_setup() {
 	# privileged: bright white (base03 = 15)
 	# unprivileged: highlight (base1 = 14)
 	# failed command: red
-	PROMPT="%(?.%F{yellow}.%F{red})${PURE_PROMPT_SYMBOL:-λ}%f "
+	PROMPT="%(?.%F{magenta}.%F{red})${PURE_PROMPT_SYMBOL:-λ}%f "
 
 	# construct the array of prompt rendering callbacks
 	# a prompt rendering callback should append to the preprompt=() array
